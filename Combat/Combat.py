@@ -8,7 +8,7 @@ class Person: #Applies to all
     self.abilities = []
     self.critMultiplier = 1
 
-class Player(self, Person):
+class Player(self, Person): #you
   def __init__(self):
     self.inventory = [ ] 
   def CheckInventory():
@@ -23,8 +23,11 @@ class AttDef: #AttackDefense
     return damage
   def Defense(level, power, defense, crit):
     d2 = ((2*level*crit)+2)/5
-    damage = ((d2*power*defense)/50)+2
-    return damage
+    defense = ((d2*power*defense)/50)+2
+    return defense
+  def FinalDamage(damage, defense): #5 billion functions
+    finalDamage = damage - defense
+    return finalDamage
   
   
     
