@@ -1,6 +1,7 @@
 class Person:
   def __init__(self):
     self.health = 100
+    self.level = 5
     self.power = 10
     self.attack = 10
     self.defense = 10
