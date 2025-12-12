@@ -5,4 +5,6 @@ class Person:
     self.attack = 10
     self.defense = 10
     self.abilities = []
-    self.inventory = []
+
+class Player(self, Person):
+  self.inventory = [ ] 
