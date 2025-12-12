@@ -11,6 +11,8 @@ class Person: #Applies to all
 class Player(self, Person):
   def __init__(self):
     self.inventory = [ ] 
+  def CheckInventory():
+    print(self.inventory)
 
 class AttDef: #AttackDefense
   def __init__(self):
