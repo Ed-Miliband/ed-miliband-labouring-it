@@ -1,4 +1,4 @@
-class Person: #Applies to all
+class BillyBob: #Applies to all
   def __init__(self):
     self.health = 100
     self.level = 5
