@@ -1,4 +1,4 @@
-class Person:
+class Person: #Applies to all
   def __init__(self):
     self.health = 100
     self.level = 5
@@ -12,7 +12,7 @@ class Player(self, Person):
   def __init__(self):
     self.inventory = [ ] 
 
-class AttDef:
+class AttDef: #AttackDefense
   def __init__(self):
     return
   def Attack(level, power, attack, crit):
