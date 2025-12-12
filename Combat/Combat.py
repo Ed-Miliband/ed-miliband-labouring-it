@@ -6,6 +6,18 @@ class Person:
     self.attack = 20
     self.defense = 10
     self.abilities = []
+    self.critMultiplier = 1
 
 class Player(self, Person):
-  self.inventory = [ ] 
+  def __init__(self):
+    self.inventory = [ ] 
+
+class AttDef:
+  def __init__(self):
+    return
+  def Attack(level, power, attack, crit):
+    d1 = ((2*level*crit)+2)/5
+    damage = ((d1*power*attack)/50)+2
+  return damage
+  
+    
