@@ -18,6 +18,11 @@ class AttDef:
   def Attack(level, power, attack, crit):
     d1 = ((2*level*crit)+2)/5
     damage = ((d1*power*attack)/50)+2
-  return damage
+    return damage
+  def Defense(level, power, defense, crit):
+    d2 = ((2*level*crit)+2)/5
+    damage = ((d2*power*defense)/50)+2
+    return damage
+  
   
     
