@@ -7,7 +7,7 @@
       "power": 10
       "attack": 20
       "defense": 10
-      "abilities": [" ", " ", " ", " "],
+      "abilities": ["Attack", "Attack", "Attack", "Attack"],
       "critMultiplier": 1
     }
     "goblin": {
