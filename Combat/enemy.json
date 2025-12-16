@@ -9,6 +9,15 @@
       "defense": 10
       "abilities": [" ", " ", " ", " "],
       "critMultiplier": 1 
+    "goblin": {
+      "comment": "lil guy",
+      "health": 45,
+      "level": 3,
+      "power": 20
+      "attack": 25
+      "defense": 10
+      "abilities": ["Attack", "Cleave ", "Suicide"],
+      "critMultiplier": 1       
   },
     
     
