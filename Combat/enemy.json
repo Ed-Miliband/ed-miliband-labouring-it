@@ -1,6 +1,7 @@
 {
-  "enemies":{
+  "basic enemies":{
     "base stats": {
+      "comment": "exception handling instances+just for copy and pasting"
       "health": 100,
       "level": 5,
       "power": 10
