@@ -8,7 +8,8 @@
       "attack": 20
       "defense": 10
       "abilities": [" ", " ", " ", " "],
-      "critMultiplier": 1 
+      "critMultiplier": 1
+    }
     "goblin": {
       "comment": "lil guy",
       "health": 45,
