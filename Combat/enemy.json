@@ -18,7 +18,17 @@
       "attack": 25
       "defense": 10
       "abilities": ["Attack", "Cleave ", "Suicide"],
-      "critMultiplier": 1       
+      "critMultiplier": 1
+    }
+    "big goblin": {
+      "comment": "big guy",
+      "health": 70,
+      "level": 10,
+      "power": 20
+      "attack": 20
+      "defense": 10
+      "abilities": ["Attack", "Cleave ", "Super Suicide"],
+      "critMultiplier": 1
   },
     
     
