@@ -1,5 +1,5 @@
 import pygame
-from Main_Menu import LoginPage
+from Main Menu import LoginPage
 
 def main_menu(): #Main menu screen
   pygame.display.set_caption("Menu")
