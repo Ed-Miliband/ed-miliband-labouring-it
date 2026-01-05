@@ -6,8 +6,11 @@ def main_menu(): #Main menu screen
  while True:
    screen.blit(BG, (0, 0)) #set background
 
-   MENU_MOUSE_POS = pygame.mouse.get_pos()
-   MENU_TEXT = get_font (100).render("MAIN MENU", True, "#b68f40") MENU_RECT MENU_TEXT.get_rect (center=(640, 100))
+   MENU_MOUSE_POS = pygame.mouse.get_pos() #mouse position
+   
+   MENU_TEXT = get_font (100).render("MAIN MENU", True, "#b68f40") 
+   MENU_RECT = MENU_TEXT.get_rect (center=(640, 100))
+   
    PLAY_BUTTON = Button (image=pygame.image.load("assets/Play Rect.png"), pos=(640, 250),
 text_input="PLAY", font=get_font (75), base_color="#d7fcd4", hovering_color="White")
    OPTIONS_BUTTON = Button (image=pygame.image.load("assets/Options Rect.png"), pos=(640, 400), text_input="OPTIONS", font=get_font (75), base_color="#d7fcd4", hovering_color="White")
@@ -15,6 +18,8 @@ text_input="PLAY", font=get_font (75), base_color="#d7fcd4", hovering_color="Whi
 text_input="QUIT", font=get_font (75), base_color="#d7fcd4", hovering color="White")
 
    SCREEN.blit (MENU_TEXT, MENU_RECT)
+
+   
 
 
 
