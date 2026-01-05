@@ -19,14 +19,14 @@ clock = pygame.time.Clock()
 while not done:
     # --- Main event loop - Code for mouse keyboard + mouse clicks go here
     for event in pygame.event.get():
-    if event.type == pygame.QUIT:
+     if event.type == pygame.QUIT:
         print("User asked to quit.")
         pygame.quit()
-    elif event.type == pygame.KEYDOWN:
+     elif event.type == pygame.KEYDOWN:
         print("User pressed a key.")
-    elif event.type == pygame.KEYUP:
+     elif event.type == pygame.KEYUP:
         print("User let go of a key.")
-    elif event.type == pygame.MOUSEBUTTONDOWN:
+     elif event.type == pygame.MOUSEBUTTONDOWN:
         print("User pressed a mouse button")
 
  
