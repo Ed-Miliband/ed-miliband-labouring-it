@@ -20,7 +20,11 @@ text_input="QUIT", font=get_font (75), base_color="#d7fcd4", hovering color="Whi
 
    SCREEN.blit (MENU_TEXT, MENU_RECT)
 
-   
+def options(): 
+   pygame.display.set_caption("Options")
+
+   while True:
+     
 
 
 
