@@ -20,6 +20,26 @@ text_input="QUIT", font=get_font (75), base_color="#d7fcd4", hovering color="Whi
 
    SCREEN.blit (MENU_TEXT, MENU_RECT)
 
+  for button in [PLAY_BUTTON, OPTIONS_BUTTON, QUIT_BUTTON]: 
+    button.changeColor (MENU_MOUSE_POS)
+    button.update(SCREEN)
+
+  for event in pygame.event.get():
+    if event.type == pygame.QUIT:
+      pygame.quit()
+      sys.exit()
+    if event.type == pygame.MOUSEBUTTONDOWN:
+      if PLAY_BUTTON. check For Input (MENU_MOUSE_POS): 
+        play()
+    if OPTIONS_BUTTON.checkForInput (MENU_MOUSE_POS):
+      options()
+    if QUIT_BUTTON.checkForInput (MENU_MOUSE_POS):
+      pygame.quit() sys.exit()
+      
+  pygame.display.update()
+
+main menu()
+
 def options(): 
    pygame.display.set_caption("Options")
 
