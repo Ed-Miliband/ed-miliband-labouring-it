@@ -34,7 +34,8 @@ text_input="QUIT", font=get_font (75), base_color="#d7fcd4", hovering color="Whi
     if OPTIONS_BUTTON.checkForInput (MENU_MOUSE_POS):
       options()
     if QUIT_BUTTON.checkForInput (MENU_MOUSE_POS):
-      pygame.quit() sys.exit()
+      pygame.quit() 
+      sys.exit()
       
   pygame.display.update()
 
