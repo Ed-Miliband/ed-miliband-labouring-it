@@ -1,3 +1,5 @@
+from argon2 import PasswordHasher
+
 class Button():
   def __init__(self, image, pos, text_input, font, base_color, hovering_color):
     self.image image
@@ -26,3 +28,16 @@ class Button():
       self.text = self.font.render(self.text_input, True, self.hovering_color)
     else:
       self.text = self.font.render(self.text_input, True, self.base_color)
+
+
+class LoginPage():
+  def Hashing():
+    ph = PasswordHasher()
+    hashed = ph.hash("supersecret")
+    print(f"Hashed: {hashed}")
+
+    try:
+      ph.verify(hashed, "supersecret")
+      print("Verification successful!")
+    except Exception as e: # Catching VerifyMismatchError is more specific
+      print(f"Verification failed: {e}")
