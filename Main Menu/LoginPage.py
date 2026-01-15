@@ -35,9 +35,11 @@ class LoginPage():
     ph = PasswordHasher()
     hashed = ph.hash("supersecret")
     print(f"Hashed: {hashed}")
-
     try:
       ph.verify(hashed, "supersecret")
       print("Verification successful!")
     except Exception as e: # Catching VerifyMismatchError is more specific
-      print(f"Verification failed: {e}")
+        print(f"Verification failed: {e}")
+    def verifyUsers():
+      f = open(users.txzt, "r")
+      
