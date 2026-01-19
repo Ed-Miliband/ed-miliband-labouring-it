@@ -1,10 +1,12 @@
 import pygame
 from MainMenu import LoginPage
 
+A = True #A constant
+
 def main_menu(): #Main menu screen
   pygame.display.set_caption("Menu")
 
- while True:
+ while A = True:
    screen.blit(BG, (0, 0)) #set background
 
    MENU_MOUSE_POS = pygame.mouse.get_pos() #mouse position
@@ -42,7 +44,7 @@ main menu()
 def options(): 
    pygame.display.set_caption("Options")
 
-   while True:
+   while A = True:
    screen.blit(BG, (0, 0)) #set background
 
    MENU_MOUSE_POS = pygame.mouse.get_pos() #mouse position
