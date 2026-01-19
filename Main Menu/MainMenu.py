@@ -1,7 +1,7 @@
 import pygame
 from MainMenu import LoginPage
 
-A = True #A constant
+A = True #Constant
 
 def main_menu(): #Main menu screen
   pygame.display.set_caption("Menu")
@@ -42,7 +42,7 @@ def main_menu(): #Main menu screen
 main menu()
 
 def options(): 
-   pygame.display.set_caption("Options")
+   pygame.display.set_caption("Options") #filler menu tbh
 
    while A = True:
    screen.blit(BG, (0, 0)) #set background

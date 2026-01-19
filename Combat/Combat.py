@@ -8,7 +8,7 @@ class BillyBob: #Applies to all
     self.abilities = []
     self.critMultiplier = 1
 
-class Player(self, Person): #you
+class Player(self, BillyBob): #you
   def __init__(self):
     self.inventory = [ ] 
   def CheckInventory():
