@@ -29,6 +29,16 @@
       "defense": 7
       "abilities": ["Attack", "Cleave ", "Super Suicide"],
       "critMultiplier": 1
+    }
+    "skeleton": {
+      "comment": "bad to the",
+      "health": 30,
+      "level": 5,
+      "power": 10
+      "attack": 30
+      "defense": 5
+      "abilities": ["Attack", "Charge"],
+      "critMultiplier": 1
   },
     
     
