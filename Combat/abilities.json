@@ -1,6 +1,6 @@
 {
-  Basic Attacks:{
-    Attack: 10
-    Cleave: 15
-    Suicide: 50
-    Super Suicide: 200
+ "Basic Attacks":{
+    "Attack": 10
+    "Cleave": 15
+    "Suicide": 50
+    "Super Suicide": 200
