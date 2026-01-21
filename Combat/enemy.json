@@ -24,9 +24,9 @@
       "comment": "big guy",
       "health": 70,
       "level": 10,
-      "power": 20
-      "attack": 20
-      "defense": 10
+      "power": 25
+      "attack": 25
+      "defense": 7
       "abilities": ["Attack", "Cleave ", "Super Suicide"],
       "critMultiplier": 1
   },
