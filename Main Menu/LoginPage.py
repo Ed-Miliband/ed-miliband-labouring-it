@@ -40,6 +40,4 @@ class LoginPage():
       print("Verification successful!")
     except Exception as e: # Catching VerifyMismatchError is more specific
         print(f"Verification failed: {e}")
-  def verifyUsers():
-    f = open(users.txzt, "r")
       
