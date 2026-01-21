@@ -1,4 +1,4 @@
-class BillyBob: #Applies to all
+class BillyBob: #Applies to the player
   def __init__(self):
     self.health = 100
     self.level = 5
@@ -7,9 +7,6 @@ class BillyBob: #Applies to all
     self.defense = 10
     self.abilities = []
     self.critMultiplier = 1
-
-class Player(self, BillyBob): #you
-  def __init__(self):
     self.inventory = [ ] 
   def CheckInventory():
     print(self.inventory)
