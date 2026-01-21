@@ -1,3 +1,5 @@
+import json
+
 class BillyBob: #Applies to the player
   def __init__(self):
     self.health = 100
@@ -25,6 +27,16 @@ class AttDef: #AttackDefense
   def FinalDamage(damage, defense): #5 billion functions
     finalDamage = damage - defense
     return finalDamage
+
+#Utility functions for JSON
+def load_json(filepath):
+    with open(filepath, "r") as f:
+        return json.load(f)
+
+
+def save_json(filepath, data):
+    with open(filepath, "w") as f:
+        json.dump(data, f, indent=4)
   
   
     
