@@ -33,7 +33,7 @@ class Button():
 class LoginPage():
   def Hashing():
     ph = PasswordHasher()
-    hashed = ph.hash("supersecret")
+    hashed = ph.hash("hamburger")
     print(f"Hashed: {hashed}")
     try:
       ph.verify(hashed, "supersecret")
