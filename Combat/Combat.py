@@ -32,8 +32,7 @@ class AttDef: #AttackDefense
 def load_json(filepath):
     with open(filepath, "r") as f:
         return json.load(f)
-
-
+      
 def save_json(filepath, data):
     with open(filepath, "w") as f:
         json.dump(data, f, indent=4)
