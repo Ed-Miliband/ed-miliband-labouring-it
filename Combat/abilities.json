@@ -1,6 +1,7 @@
 {
  "Basic Attacks":{
     "Attack": 10
+    "Heal": "invoke the function big boy"
     "Cleave": 20
     "Fireball": 30
     "Suicide": 50
