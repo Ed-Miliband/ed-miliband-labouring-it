@@ -56,5 +56,15 @@
         "defense": 10
         "abilities": ["Attack", "Attack", "Attack", "Attack"],
         "critMultiplier": 1
+      "The Knight":{
+        "comment": "kite",
+        "enemy": false
+        "health": 100,
+        "level": 5,
+        "power": 10
+        "attack": 30
+        "defense": 15
+        "abilities": ["Attack", "Heal"],
+        "critMultiplier": 1
       }
     
