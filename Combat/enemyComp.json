@@ -56,6 +56,7 @@
         "defense": 10
         "abilities": ["Attack", "Attack", "Attack", "Attack"],
         "critMultiplier": 1
+      }
       "The Knight":{
         "comment": "kite",
         "enemy": false
