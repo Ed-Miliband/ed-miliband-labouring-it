@@ -1,1 +1,44 @@
-
+{
+  "basic enemies":{
+    "base stats": {
+      "comment": "exception handling instances+just for copy and pasting",
+      "health": 100,
+      "level": 5,
+      "power": 10
+      "attack": 20
+      "defense": 10
+      "abilities": ["Attack", "Attack", "Attack", "Attack"],
+      "critMultiplier": 1
+    }
+    "goblin": {
+      "comment": "lil guy",
+      "health": 45,
+      "level": 3,
+      "power": 20
+      "attack": 25
+      "defense": 10
+      "abilities": ["Attack", "Cleave ", "Suicide"],
+      "critMultiplier": 1
+    }
+    "big goblin": {
+      "comment": "big guy",
+      "health": 70,
+      "level": 10,
+      "power": 25
+      "attack": 25
+      "defense": 7
+      "abilities": ["Attack", "Cleave ", "Super Suicide"],
+      "critMultiplier": 1
+    }
+    "skeleton": {
+      "comment": "bad to the",
+      "health": 30,
+      "level": 5,
+      "power": 10
+      "attack": 30
+      "defense": 5
+      "abilities": ["Attack", "Charge"],
+      "critMultiplier": 1
+  },
+    
+    
