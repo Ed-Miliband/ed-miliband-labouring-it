@@ -16,6 +16,26 @@ class BillyBob: #Applies to the player
   def Healing(maxHealth, healMultiplier):
     healAmount = maxHealth * healMultipler
     return healAmount
+  def SortInventory(inventory): #merge sort
+    if len(inventory} > 1:
+      mid len(inventory)/2
+      lefthalf = inventory[:mid]
+      righthalf = inventory[mid:]
+      sortInventory(righthalf)
+      sortInventory(righthalf)
+      i = 0
+      j = 0
+      k = 0
+      while i < len(lefthalf) amd j < len(righthalf):
+      if lefthalf[i] < righthalf[j]:
+        inventory[k] = lefthalf[i]
+      else:
+        inventory[k] = righthalf[i]
+        j += 1
+      while j < len(righthalf):
+        inventory[k] = righthalf[j]
+        j = j+1
+        k = k+1
 
 class AttDef: #AttackDefense
   def __init__(self):
