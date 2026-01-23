@@ -11,7 +11,7 @@
       "abilities": ["Attack", "Attack", "Attack", "Attack"],
       "critMultiplier": 1
     }
-    "goblin": {
+    "Goblin": {
       "comment": "lil guy",
       "enemy": true
       "health": 45,
@@ -22,7 +22,7 @@
       "abilities": ["Attack", "Cleave ", "Suicide"],
       "critMultiplier": 1
     }
-    "big goblin": {
+    "Large Goblin": {
       "comment": "big guy",
       "enemy": true
       "health": 70,
@@ -33,7 +33,7 @@
       "abilities": ["Attack", "Cleave ", "Super Suicide"],
       "critMultiplier": 1
     }
-    "skeleton": {
+    "Skeleton": {
       "comment": "bad to the",
       "enemy": true
       "health": 30,
@@ -46,7 +46,7 @@
   },
   {
     "companions":{
-      "Ka Leung":{
+      "Ka Singh Leung":{
         "comment": "not an associate of mine",
         "enemy": false
         "health": 100,
