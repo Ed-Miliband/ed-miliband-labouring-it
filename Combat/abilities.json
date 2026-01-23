@@ -1,6 +1,13 @@
 {
  "Basic Attacks":{
     "Attack": 10
-    "Cleave": 15
+    "Cleave": 20
+    "Fireball": 30
     "Suicide": 50
     "Super Suicide": 200
+ }
+{
+ "Advanced Attacks":{
+  "Judgement": 150
+  "Crush": 75
+ }
