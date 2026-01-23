@@ -13,8 +13,8 @@ class BillyBob: #Applies to the player
     self.inventory = [ ] 
   def CheckInventory():
     print(self.inventory)
-  def Healing(maxHealth, HealMultiplier):
-    healAmount = maxHealth * HealMultipler
+  def Healing(maxHealth, healMultiplier):
+    healAmount = maxHealth * healMultipler
     return healAmount
 
 class AttDef: #AttackDefense
