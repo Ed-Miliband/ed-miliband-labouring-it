@@ -2,6 +2,7 @@ import json
 
 class BillyBob: #Applies to the player
   def __init__(self):
+    self.maxHealth = 100
     self.health = 100
     self.level = 5
     self.power = 10
@@ -12,6 +13,9 @@ class BillyBob: #Applies to the player
     self.inventory = [ ] 
   def CheckInventory():
     print(self.inventory)
+  def Healing(maxHealth, HealPercentage):
+    healAmount = maxHealth * HealPercentage
+    return healAmount
 
 class AttDef: #AttackDefense
   def __init__(self):
