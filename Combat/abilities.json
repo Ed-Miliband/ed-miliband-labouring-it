@@ -4,10 +4,11 @@
     "Cleave": 20
     "Fireball": 30
     "Suicide": 50
-    "Super Suicide": 200
+    "Charge": 35
  }
 {
  "Advanced Attacks":{
-  "Judgement": 150
-  "Crush": 75
+   "Judgement": 150
+   "Crush": 75
+   "Super Suicide": 200
  }
