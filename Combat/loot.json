@@ -7,4 +7,10 @@
     "Knife":{
       "Attack:" 20
       "DefenseBonus": 4
+    "Sword":{
+      "Attack": 35
+      "DefenseBonus": 10
+    "Big Knife":[
+      "Attack": 35
+      "DefenseBonus": 10   
   }
