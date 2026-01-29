@@ -10,7 +10,7 @@
     "Sword":{
       "Attack": 35
       "DefenseBonus": 10
-    "Big Knife":[
+    "Big Knife":{
       "Attack": 35
       "DefenseBonus": 10   
   }
