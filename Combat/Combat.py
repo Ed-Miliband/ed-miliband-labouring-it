@@ -1,4 +1,5 @@
 import json
+n = 0
 
 class BillyBob: #Applies to only the player, companion+enemy data in json files
   def __init__(self):
@@ -11,7 +12,9 @@ class BillyBob: #Applies to only the player, companion+enemy data in json files
     self.critMultiplier = 1
     self.inventory = [ ] 
   def CheckInventory():
-    print(self.inventory)
+    print(self.inventory
+  def addtoInventory(item):
+    self.inventory.append(item)
   def Healing(maxHealth, healMultiplier):
     healAmount = maxHealth * healMultipler
     return healAmount
@@ -35,6 +38,7 @@ class BillyBob: #Applies to only the player, companion+enemy data in json files
         inventory[k] = righthalf[j]
         j = j+1
         k = k+1
+      
 
 class AttDef: #AttackDefense
   def __init__(self):
