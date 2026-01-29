@@ -1,1 +1,17 @@
-
+{
+  "Healing Items":{
+    "Knife":
+    
+  }
+  "Uncommon":{
+    "2": "Bandages"
+  }
+  "Rare":{
+    "3": "Sword"
+  }
+  "Epic":{
+    "4": "Pumpkin Pie"
+  }
+  "Legendary":{
+    "5": "Big Knife"
+  }
