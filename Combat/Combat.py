@@ -1,5 +1,4 @@
 import json
-n = 0
 
 class BillyBob: #Applies to only the player, companion+enemy data in json files
   def __init__(self):
