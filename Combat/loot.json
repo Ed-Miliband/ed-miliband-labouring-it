@@ -1,11 +1,12 @@
 {
   "Healing Items":{
-    "Bandages": 0.5
-
-    
+    "Bandages": 0.2
+    "Pumpkin Pie": 0.5
   }
-  "Uncommon":{
-    "2": "Bandages"
+  "Combat Items":{
+    "Knife":{
+      "Attack:" 20
+      "DefenseBonus": 4
   }
   "Rare":{
     "3": "Sword"
