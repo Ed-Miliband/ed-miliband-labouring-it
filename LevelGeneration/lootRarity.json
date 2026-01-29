@@ -1,16 +1,16 @@
 {
   "Common":{
-    "bornana": 1
+    "1": "bornana"
   }
   "Uncommon":{
-    "big bornana": 2
+    "2": "big bornana"
   }
   "Rare":{
-    "bigger bornana": 3
+    "3": "bigger bornana"
   }
   "Epic":{
-    "second biggest bornana": 4
+    "4": "second biggest bornana"
   }
   "Legendary":{
-    "biggest bornaner": 5
+    "5": "biggest bornaner":
   }
