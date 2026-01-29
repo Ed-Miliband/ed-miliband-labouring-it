@@ -1,15 +1,24 @@
 {
   "Common":{
     "1": "Knife"
+    "7": "Knife"
+    "8": "Knife"
+    "12": "Knife"
   }
   "Uncommon":{
     "2": "Bandages"
+    "9": "Bandages"
+    "11": "Bandages"
+    "15": "Bandages"
   }
   "Rare":{
     "3": "Sword"
+    "13:" "Sword"
+    "16" "Sword"
   }
   "Epic":{
     "4": "Pumpkin Pie"
+    "17:" "Pumpkin Pie"
   }
   "Legendary":{
     "5": "Big Knife"
