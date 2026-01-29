@@ -13,7 +13,7 @@ class BillyBob: #Applies to only the player, companion+enemy data in json files
     self.inventory = [ ] 
   def CheckInventory():
     print(self.inventory
-  def addtoInventory(item):
+  def AddtoInventory(item):
     self.inventory.append(item)
   def Healing(maxHealth, healMultiplier):
     healAmount = maxHealth * healMultipler
