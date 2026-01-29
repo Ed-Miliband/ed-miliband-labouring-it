@@ -6,7 +6,6 @@ class BillyBob: #Applies to the player
     self.health = 100
     self.level = 5
     self.power = 10
-    self.attack = 20
     self.defense = 10
     self.abilities = []
     self.critMultiplier = 1
