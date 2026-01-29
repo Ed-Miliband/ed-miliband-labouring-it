@@ -1,6 +1,6 @@
 import json
 
-class BillyBob: #Applies to the player
+class BillyBob: #Applies to only the player, companion+enemy data in json files
   def __init__(self):
     self.maxHealth = 100
     self.health = 100
