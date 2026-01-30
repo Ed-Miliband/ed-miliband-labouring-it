@@ -1,4 +1,7 @@
 import json
+import abilities
+import enemyComp
+import loot
 
 class BillyBob: #Applies to only the player, companion+enemy data in json files
   def __init__(self):
