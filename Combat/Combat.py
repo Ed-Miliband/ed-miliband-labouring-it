@@ -14,6 +14,9 @@ class BillyBob: #Applies to only the player, companion+enemy data in json files
     print(self.inventory
   def AddtoInventory(item):
     self.inventory.append(item)
+  def RemovefromInventory():
+    item = input()
+    self.inventory.remove(item)
   def Healing(maxHealth, healMultiplier):
     healAmount = maxHealth * healMultipler
     return healAmount
