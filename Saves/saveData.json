@@ -3,7 +3,7 @@
     "maxHealth": 100
     "health": 100
     "level": 5
-    "power": 0
+    "power": 10
     "defense": 10
     "abilities": []
     "critMultiplier": 1
