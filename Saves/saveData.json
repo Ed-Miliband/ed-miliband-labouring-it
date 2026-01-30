@@ -7,5 +7,6 @@
     "defense": 10
     "abilities": []
     "critMultiplier": 1
-    "inventory": [ ] 
+    "inventory": [ ]
+    "gameLevel": 1
   }
