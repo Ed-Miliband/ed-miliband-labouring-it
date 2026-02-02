@@ -46,7 +46,7 @@ def options():
 
    while A = True:
    screen.blit(BG, (0, 0)) #set background
-   asurf = pygame.image.load(ed_lees_band.jpg)
+   asurf = pygame.image.load(ed_lees_band.jpg) #i luv speedy gonzalez
 
    MENU_MOUSE_POS = pygame.mouse.get_pos() #mouse position
 
