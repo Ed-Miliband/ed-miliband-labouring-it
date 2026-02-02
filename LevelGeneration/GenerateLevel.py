@@ -13,5 +13,5 @@ PLAYER_COLOR = (255, 0, 0)
 
 
 def giveLoot():
-  lootNumber = random.ranrange(1,17)
+  lootNumber = random.randrange(1,17)
   return lootNumber
