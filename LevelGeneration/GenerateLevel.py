@@ -1,4 +1,5 @@
 import pygame
+import random
 
 # Define constants
 SCREEN_WIDTH = 800
@@ -9,3 +10,7 @@ PLAYER_WIDTH = 50
 PLAYER_HEIGHT = 50
 PLATFORM_COLOR = (255, 255, 255)
 PLAYER_COLOR = (255, 0, 0)
+
+
+def giveLoot():
+  
