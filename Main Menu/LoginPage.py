@@ -38,6 +38,7 @@ class LoginPage():
     try:
       ph.verify(hashed, "supersecret")
       print("Verification successful!")
-    except Exception as e: # Catching VerifyMismatchError is more specific
+      return hashed
+    except Exception as e: 
         print(f"Verification failed: {e}")
       
