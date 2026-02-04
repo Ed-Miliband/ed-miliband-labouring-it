@@ -39,7 +39,10 @@ def main_menu(): #Main menu screen
       
   pygame.display.update()
 
-main menu()
+main_menu()
+
+def play():
+  
 
 def options(): 
    pygame.display.set_caption("Options") #filler menu tbh
