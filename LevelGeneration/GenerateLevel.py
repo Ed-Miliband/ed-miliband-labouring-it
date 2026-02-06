@@ -1,4 +1,4 @@
-import pygame
+import Pygame
 import random
 
 # Define constants
