@@ -49,6 +49,7 @@ def NewNewGame():
   
 def play():
   loadGame()
+  loadLevel()
 
 def options(): 
    pygame.display.set_caption("Options") #filler menu tbh
