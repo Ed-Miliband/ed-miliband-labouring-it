@@ -20,6 +20,10 @@ def LootChance():
   return lootNumber
 
 def giveLoot():
+  chance = lootChance()
+  load_json(LootRarity)
+  looty
+  return looty
   
 def loadLevelData():
 
