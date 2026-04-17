@@ -22,7 +22,7 @@ def LootChance():
 def giveLoot():
   chance = lootChance()
   load_json(LootRarity)
-  looty
+  looty = json.load(chance)
   return looty
   
 def loadLevelData():
