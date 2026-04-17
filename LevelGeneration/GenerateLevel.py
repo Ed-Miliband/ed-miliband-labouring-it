@@ -1,6 +1,6 @@
 import Pygame
 import random
-import levelData.json
+import roomData.json
 
 # Define constants
 SCREEN_WIDTH = 800
