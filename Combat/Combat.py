@@ -16,8 +16,8 @@ class BillyBob: #Applies to only the player, companion+enemy data in json files
     self.inventory = [ ] 
 
     def Healing(maxHealth, healMultiplier):
-    healAmount = maxHealth * healMultipler
-    return healAmount
+      healAmount = maxHealth * healMultipler
+      return healAmount
     
   def CheckInventory():
     print(self.inventory)
@@ -33,7 +33,7 @@ class BillyBob: #Applies to only the player, companion+enemy data in json files
       lefthalf = inventory[:mid]
       righthalf = inventory[mid:]
       sortInventory(righthalf)
-      sortInventory(righthalf)
+      sortInventory(lefthalf)
       i = 0
       j = 0
       k = 0
@@ -50,8 +50,6 @@ class BillyBob: #Applies to only the player, companion+enemy data in json files
       
 
 class AttDef: #AttackDefense
-  def __init__(self):
-    return
   def Attack(level, power, attack, crit):
     d1 = ((2*level*crit)+2)/5
     damage = ((d1*power*attack)/50)+2
