@@ -71,10 +71,3 @@ def load_json(filepath):
 def save_json(filepath, data):
     with open(filepath, "a") as f:
         json.dump(data, f, indent=4)
-  
-class Combat:
-  def turn(turn):
-    turn = turn+1
-    return turn
-    
-    
