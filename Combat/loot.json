@@ -5,7 +5,7 @@
   }
   "Combat Items":{
     "Knife":{
-      "Attack:" 20
+      "Attack": 20
       "DefenseBonus": 4
     "Sword":{
       "Attack": 35
