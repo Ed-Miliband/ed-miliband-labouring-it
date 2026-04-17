@@ -1,7 +1,7 @@
 import pygame
 from MainMenu import LoginPage
 from MainMenu import NewGame
-from SaveLoad import Load
+from Saves import SaveLoad
 
 A = True #Constant
 
