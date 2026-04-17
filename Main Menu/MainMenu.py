@@ -1,5 +1,6 @@
 import pygame
 from MainMenu import LoginPage
+from MainMenu import NewGame
 
 A = True #Constant
 
@@ -41,6 +42,9 @@ def main_menu(): #Main menu screen
 
 main_menu()
 
+def NewNewGame():
+  NewGame()
+  
 def play():
   
 
