@@ -8,6 +8,7 @@ class BillyBob: #Applies to only the player, companion+enemy data in json files
     self.maxHealth = 100
     self.health = 100
     self.level = 5
+    self.experience = 0
     self.power = 10
     self.defense = 10
     self.abilities = []
