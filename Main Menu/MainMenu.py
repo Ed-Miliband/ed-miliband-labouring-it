@@ -1,6 +1,7 @@
 import pygame
 from MainMenu import LoginPage
 from MainMenu import NewGame
+from SaveLoad import Load
 
 A = True #Constant
 
@@ -47,14 +48,14 @@ def NewNewGame():
   NewGame()
   
 def play():
-  
+  loadGame()
 
 def options(): 
    pygame.display.set_caption("Options") #filler menu tbh
 
    while A = True:
-   screen.blit(BG, (0, 0)) #set background
-   asurf = pygame.image.load(ed_lees_band.jpg) #i luv speedy gonzalez
+    screen.blit(BG, (0, 0)) #set background
+    asurf = pygame.image.load(ed_lees_band.jpg) #i luv speedy gonzalez
 
    MENU_MOUSE_POS = pygame.mouse.get_pos() #mouse position
 
