@@ -1,7 +1,7 @@
 import Pygame
 import random
-import roomData
-from Level Generation import 
+from LevelGeneration import roomData
+from LevelGeneration import LootRarity
 
 # Define constants
 SCREEN_WIDTH = 800
