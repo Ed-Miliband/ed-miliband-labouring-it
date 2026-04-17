@@ -2,6 +2,7 @@ import json
 import abilities
 import enemyComp
 import loot
+from main import utility
 
 class BillyBob: #Applies to only the player, companion+enemy data in json files
   def __init__(self):
@@ -61,12 +62,3 @@ class AttDef: #AttackDefense
   def FinalDamage(damage, defense): #5 billion functions
     finalDamage = damage - defense
     return finalDamage
-
-#Utility functions for JSON
-def load_json(filepath):
-    with open(filepath, "r") as f:
-        return json.load(f)
-      
-def save_json(filepath, data):
-    with open(filepath, "a") as f:
-        json.dump(data, f, indent=4)
