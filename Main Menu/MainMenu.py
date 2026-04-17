@@ -23,7 +23,7 @@ def main_menu(): #Main menu screen
 
    SCREEN.blit (MENU_TEXT, MENU_RECT)
 
-  for button in [PLAY_BUTTON, OPTIONS_BUTTON, QUIT_BUTTON]: 
+  for button in [NEWGAME_BUTON, PLAY_BUTTON, OPTIONS_BUTTON, QUIT_BUTTON]: 
     button.changeColor (MENU_MOUSE_POS)
     button.update(SCREEN)
 
@@ -32,6 +32,8 @@ def main_menu(): #Main menu screen
       pygame.quit()
       sys.exit()
     if event.type == pygame.MOUSEBUTTONDOWN:
+      if NEWGAME_BUTTON. check For Input (MENU_MOUSE_POS): 
+        NewGame()
       if PLAY_BUTTON. check For Input (MENU_MOUSE_POS): 
         play()
     if OPTIONS_BUTTON.checkForInput (MENU_MOUSE_POS):
@@ -44,9 +46,6 @@ def main_menu(): #Main menu screen
 
 main_menu()
 
-def NewNewGame():
-  NewGame()
-  
 def play():
   loadGame()
   loadLevel()
