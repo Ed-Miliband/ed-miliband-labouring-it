@@ -1,5 +1,6 @@
 import Pygame
 import random
+import levelData.json
 
 # Define constants
 SCREEN_WIDTH = 800
@@ -15,3 +16,7 @@ PLAYER_COLOR = (255, 0, 0)
 def giveLoot():
   lootNumber = random.randrange(1,17)
   return lootNumber
+
+def loadLevelData():
+
+def loadLevel():
