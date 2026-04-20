@@ -25,8 +25,10 @@ def giveLoot():
   looty = json.load(chance)
   return looty
   
-def loadLevelData():
-  e = load_json(roomdata)
-  
+def loadLevelData(map):
+  e = load_json("roomdata")
+  f = json.load(map)
+  return f
 
-def loadLevel():
+def loadLevel(realmap):
+  print(realmap)
