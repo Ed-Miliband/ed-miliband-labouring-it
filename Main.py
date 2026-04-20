@@ -2,7 +2,8 @@ from MainMenu import LoginPage
 from MainMenu import MainMenu
 from Saves import SaveLoad
 
-login_page()
-main_menu()
+a = login_page()
+if a == True:
+  main_menu()
 
 print("peenar")
