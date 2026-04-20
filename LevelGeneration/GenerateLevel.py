@@ -37,18 +37,18 @@ def loadLevel(realmap):
     if room[roomcount] == 1: #empty room
       roomcount += 1
       
-    if room[roomcount] == 2: #combat room
+    if room[roomcount] == 2: #loot room
       roomcount += 1
       
-    if room[roomcount] == 3: #loot room
+    if room[roomcount] == 3: #combat room
       roomcount += 1
       
-    if room[roomcount] == 4:
+    if room[roomcount] == 4: #placeholder
       roomcount += 1
 
-    if room[roomcount] == 5:
+    if room[roomcount] == 5: #placeholder
       roomcount += 1
 
-    if room[roomcount] == 6:
+    if room[roomcount] == 6: #boss room
       roomcount += 1
       
