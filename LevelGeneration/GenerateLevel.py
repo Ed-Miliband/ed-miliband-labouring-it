@@ -31,4 +31,24 @@ def loadLevelData(map):
   return f
 
 def loadLevel(realmap):
-  print(realmap)
+  room = realmap
+  roomcount = 0
+  while roomcount =< 6:
+    if room[roomcount] == 1: #empty room
+      roomcount += 1
+      
+    if room[roomcount] == 2: #combat room
+      roomcount += 1
+      
+    if room[roomcount] == 3: #loot room
+      roomcount += 1
+      
+    if room[roomcount] == 4:
+      roomcount += 1
+
+    if room[roomcount] == 5:
+      roomcount += 1
+
+    if room[roomcount] == 6:
+      roomcount += 1
+      
