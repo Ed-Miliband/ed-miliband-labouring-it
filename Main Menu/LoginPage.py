@@ -41,4 +41,13 @@ class LoginPage():
       return hashed
     except Exception as e: 
         print(f"Verification failed: {e}")
-      
+  def login_page():
+      pygame.display.set_caption("Login")
+
+ while A = True:
+   screen.blit(BG, (0, 0)) #set background
+
+   LOGIN_MOUSE_POS = pygame.mouse.get_pos() #mouse position
+   
+   LOGIN_TEXT = get_font(100).render("LOGIN", True, "#b68f40") 
+   LOGIN_RECT = MENU_TEXT.get_rect (center=(640, 50))
