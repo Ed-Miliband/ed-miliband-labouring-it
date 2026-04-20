@@ -26,5 +26,7 @@ def giveLoot():
   return looty
   
 def loadLevelData():
+  e = load_json(roomdata)
+  
 
 def loadLevel():
