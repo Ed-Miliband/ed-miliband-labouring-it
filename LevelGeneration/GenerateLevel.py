@@ -98,4 +98,94 @@ def loadLevel(realmap):
 
     if room[roomcount] == 6: #boss room
       roomcount += 1
+
+def create_dungeon():
+    global dungeon_map, rooms, player, num_total_items
+
+    for _ in range(MAX_ROOMS):
+        # Random width and height
+        w = random.randint(ROOM_MIN_SIZE, ROOM_MAX_SIZE)
+        h = random.randint(ROOM_MIN_SIZE, ROOM_MAX_SIZE)
+        # Random position without going out of the boundaries
+        x = random.randint(1, MAP_WIDTH - w - 1)
+        y = random.randint(1, MAP_HEIGHT - h - 1)
+
+        new_room = Room(x, y, w, h)
+
+        failed = False
+
+        for other_room in rooms:
+            if new_room.intersect(other_room):
+                failed = True
+                break
+
+        if not failed:
+            # Carve out the new room in the dungeon map
+            for i in range(new_room.x1, new_room.x2):
+                for j in range(new_room.y1, new_room.y2):
+                    dungeon_map[j][i] = FLOOR
+
+            center = new_room.center
+
+            if rooms:
+                # Connect the new room to the previous room with a corridor
+                prev_center = rooms[-1].center
+                # Randomly choose to go horizontal then vertical or vice versa
+                if random.choice([True, False]):
+                    create_h_corridor(
+                        prev_center[0], center[0], prev_center[1])
+                    create_v_corridor(prev_center[1], center[1], center[0])
+                else:
+                    create_v_corridor(
+                        prev_center[1], center[1], prev_center[0])
+                    create_h_corridor(prev_center[0], center[0], center[1])
+
+            rooms.append(new_room)
+
+    # Place the player in the center of the first room
+    player_pos = [rooms[0].center[0] * TILE_SIZE,
+                  rooms[0].center[1] * TILE_SIZE]
+    global player
+    player = Player(player_pos)
+    global treasure_display
+    treasure_display = TreasureValueDisplay()
+    global monster_health_display
+    monster_health_display = HealthDisplay()
+
+    # Sprite groups
+    global all_sprites
+    all_sprites = pygame.sprite.Group(treasure_display, monster_health_display)
+
+    # Generate room contents
+    for room in rooms:
+        room.generate_contents()
+
+    num_total_items = len(all_items)
+
+def create_h_corridor(x1, x2, y):
+    """Creates a horizontal corridor at least CORRIDOR_WIDTH wide."""
+    for x in range(min(x1, x2), max(x1, x2) + 1):
+        for i in range(CORRIDOR_WIDTH):  # Make the corridor at least 2 tiles wide
+            dungeon_map[y + i][x] = FLOOR
+
+
+def create_v_corridor(y1, y2, x):
+    """Creates a vertical corridor at least CORRIDOR_WIDTH wide."""
+    for y in range(min(y1, y2), max(y1, y2) + 1):
+        for i in range(CORRIDOR_WIDTH):  # Make the corridor at least 2 tiles wide
+            dungeon_map[y][x + i] = FLOOR
+
+# Function to check collision with walls
+
+
+def is_walkable(x, y):
+    tile_x = x // TILE_SIZE
+    tile_y = y // TILE_SIZE
+    if 0 <= tile_y < MAP_HEIGHT and 0 <= tile_x < MAP_WIDTH:
+        tile = dungeon_map[tile_y][tile_x]
+        if tile == WALL:
+            return False
+        else:
+            return True
+    return False
       
