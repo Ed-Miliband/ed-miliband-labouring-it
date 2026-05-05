@@ -3,3 +3,4 @@ Might as well specify all the libraries used:
 argon2 (hashing)
 pygame (Game environment)
 random (random number generation)
+sys (data handling)
